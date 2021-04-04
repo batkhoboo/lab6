@@ -90,4 +90,24 @@ h6 {
     -o-border-radius: 20px;
 }
 
-@media screen and (max-width: 650px) {}
+.multimedias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px 40px 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+    padding: 40px 40px;
+    color: white;
+}
+
+@media screen and (max-width: 1001px) {
+    .card-container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}
